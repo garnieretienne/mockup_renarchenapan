@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Deploy sample script
+cd src
+host=178.79.163.40
+app=yuweb
+scp -r ./ $host:/var/www/$app/

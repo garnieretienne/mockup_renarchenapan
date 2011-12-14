@@ -1,0 +1,139 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: At Work
+:: Contact
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+.category {
+  max-width: 980px;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.category_name {
+  border-bottom: 2px solid white;
+}
+
+.gallery {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.gallery li {
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}
+
+/* -----------------------------------------
+    Header
+----------------------------------------- */
+
+#logo {
+  margin-bottom: 2em;
+}
+
+/* -----------------------------------------
+    Menu
+----------------------------------------- */
+
+#menu {
+  display: block;
+  text-align: right;
+  z-index: 10;
+  margin-top: 2em;
+  width: 100%;
+  max-width: 980px;
+}
+
+#up {
+  height: 0.8em;
+}
+
+#up img {
+  height: 100%;
+}
+
+#menu .row {
+  background-color: black;
+  height: 2em;
+  overflow: hidden;
+}
+
+#menu a {
+  color: white;
+  margin-left: 2em;
+  font-size: 1.2em;
+}
+
+#menu .subline:hover {
+  border-bottom: 1px solid white;
+}
+
+#menu .unselected {
+  color: #242424;
+}
+
+#basemenu {
+  position: relative;
+  z-index: 100;
+}
+
+#productions_content {
+  top: -2em;
+  position: relative;
+  z-index: 10;
+}
+
+/* -----------------------------------------
+    At Work
+----------------------------------------- */
+
+#at_work_gallery img {
+  margin-bottom: 1em;
+}
+*/
+
+#at_work_gallery {
+}
+
+#at_work_gallery img {
+  width: 235px;
+  margin: 4px;  
+  border: 1px solid white;
+}
+
+/* -----------------------------------------
+    Contact
+----------------------------------------- */
+
+#card {
+  margin-top: 4em;
+}
+
+#card img {
+  border: 1px solid white;
+}
+
+#logo_renar {
+  margin-top: 10em;
+  text-align: center;
+  padding: 2em;
+}
