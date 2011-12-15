@@ -62,7 +62,7 @@ $(document).ready(function() {
   /* Run */
   menu.submenu();
   smoothlyScrolling.init();
-  categories.resize();
+  //categories.resize();
 
   /* Lightbox */
   $(".gallery a").fancybox({

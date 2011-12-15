@@ -22,7 +22,7 @@ body {
 .category {
   max-width: 980px;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 8em;
 }
 
 .category_name {
@@ -40,6 +40,10 @@ body {
 
 h3 {
   color: white;
+}
+
+.left {
+  text-align: left;
 }
 
 /* -----------------------------------------
